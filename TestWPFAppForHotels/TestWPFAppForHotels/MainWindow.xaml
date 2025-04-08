@@ -12,6 +12,7 @@
                 <DataGridTextColumn Binding="{Binding Id}" Header="Id" Width="auto"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding Name}" Header="Name" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding CountOfStars}" Header="CountOfStars" Width="auto"></DataGridTextColumn>
+                <DataGridTextColumn Header="NewHeader" Width="auto"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
